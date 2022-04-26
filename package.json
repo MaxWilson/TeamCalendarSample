@@ -54,14 +54,14 @@
     "publish-extension": "tfx extension publish --manifest-globs azure-devops-extension.json src/*.json"
   },
   "dependencies": {
-    "azure-devops-extension-api": "~1.157.0",
-    "azure-devops-extension-sdk": "~2.0.11",
-    "azure-devops-ui": "~1.159.0",
     "@fullcalendar/core": "^4.1.0",
     "@fullcalendar/daygrid": "^4.1.0",
     "@fullcalendar/interaction": "^4.1.0",
     "@fullcalendar/react": "^4.1.0",
     "@fullcalendar/timegrid": "^4.1.0",
+    "azure-devops-extension-api": "~1.157.0",
+    "azure-devops-extension-sdk": "~2.0.11",
+    "azure-devops-ui": "~1.159.0",
     "moment": "~2.24.0",
     "react": "~16.8.1",
     "react-dom": "~16.8.1"
@@ -73,7 +73,7 @@
     "copy-webpack-plugin": "^4.5.4",
     "css-loader": "~1.0.0",
     "file-loader": "~2.0.0",
-    "node-sass": "~4.12.0",
+    "node-sass": "~7.0.1",
     "rimraf": "~2.6.2",
     "sass-loader": "~7.1.0",
     "style-loader": "~0.23.1",
