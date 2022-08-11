@@ -1,0 +1,21 @@
+FreeFormEventsSource.prototype.initialize = function (teamId="3bbd385f-f9a9-4c4e-b66f-b6a0cc9ba340", manager={getValue: ƒ, getValues: ƒ, setValue: ƒ, setValues: ƒ, getDocument: ƒ, …})
+
+
+VSOCapacityEventSource.prototype.initialize = function (projectId, projectName, teamId, teamName, hostUrl) {
+        hostUrl = "https://dev.azure.com/maxw0485/"
+        teamName = "maxw Team"
+        projectName = "maxw",
+        Projectid = 'a1f909e2-dfbb-4d92-9c7a-7f25044c3ec5', teamId = "3bbd385f-f9a9-4c4e-b66f-b6a0cc9ba340"
+        
+fetchIterations
+  iteration.id = "20c7cb59-255c-448b-9d4b-52a72e9172ab"
+  
+ fetchTeamDaysOff
+  return _this.workClient.getTeamDaysOff(_this.teamContext, iterationId);
+   context has projectName, projectId, team, teamId
+   
+ fetchCapacities
+  return _this.workClient.getCapacitiesWithIdentityRef(_this.teamContext, iterationId)
+  
+Iterations come from fetchIterations:
+  return this.workClient.getTeamIterations(this.teamContext);
