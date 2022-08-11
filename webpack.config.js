@@ -23,7 +23,21 @@ module.exports = {
     stats: {
         warnings: false
     },
-    module: {
+    devServer: {
+      static: {
+        directory: ".",
+      },
+      port: 44300,
+      hot: true,
+      server: {
+        type: 'https',
+        options: {
+          key: './localhost-key.pem',
+          cert: './localhost.pem',
+        },
+      }
+    },
+    module: {        
         rules: [
             {
                 test: /\.tsx?$/,

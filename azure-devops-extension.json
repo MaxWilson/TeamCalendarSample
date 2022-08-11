@@ -2,11 +2,12 @@
   "manifestVersion": 1,
   "id": "team-calendar",
   "publisher": "MaxWilson",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "name": "Team Calendar",
   "description": "Track events important to your team, view and manage days off, quickly see when sprints start and end, and more.",
-  "public": false,
+  "public": true,
   "categories": ["Azure Boards"],
+  "baseUri": "https://localhost:44300",
   "targets": [
     {
       "id": "Microsoft.VisualStudio.Services"

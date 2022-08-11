@@ -15,7 +15,7 @@
         "iconName": "Calendar",
         "name": "Calendar",
         "order": 22,
-        "uri": "dist/calendar.html"
+        "uri": "calendar.html"
       },
       "constraints": [
         {
